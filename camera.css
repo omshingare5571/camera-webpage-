@@ -1,0 +1,237 @@
+.head{
+    height:4rem;
+    width:100%;
+    background-color:#121212;
+    margin:0;
+    display:flex;
+    color: white;
+    position: fixed;
+    z-index:1;
+}
+
+.logo img{
+    height:2rem;
+    width:2rem;
+    margin-right:0.75rem;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    width:20%;
+    margin-left:1rem;
+}
+
+.icons{
+    width:30%;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    gap:1.2rem;
+    margin-left:20rem;
+}
+
+.about a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    opacity:0.50;
+    color: white;
+}
+.about a:hover{
+    opacity:1;
+}
+
+
+.icons{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:1rem;
+    margin-left:15rem;
+}
+
+.right-side{
+    margin-left:35rem;
+}
+
+.right-side h3{
+    color: #e69500;
+}
+
+.li button{
+    background-color: #e69500;
+    padding:0.6rem 1rem;
+    border-radius:5px;
+}
+
+.icons i{
+    margin-left:1rem;
+    opacity:0.50;
+}
+
+.icons i:hover{
+    opacity:1;
+}
+
+
+main{
+    height:600px;
+    width: 100%;
+    background-image: url('camera1.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#232323;
+    color: white;
+    display:flex;
+    align-items:center;
+    gap:2rem;
+    padding:2rem 3rem;
+    box-sizing:border-box;
+}
+
+.info{
+    width:500px;
+    margin-bottom:5rem;
+}
+
+.button {
+    display:flex;
+    gap:1rem;
+    margin-bottom:5rem;
+
+}
+
+.button button {
+    padding:0.6rem 1rem;
+    background-color: orange;
+    border-radius:5px;
+}
+
+.button button:hover{
+    transform: translateY(-3px);
+
+}
+
+.icon{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+    flex-wrap:wrap;
+    margin-top:10rem;
+}
+
+.om img{
+    height:300px;
+    width:250px;
+    
+}
+
+.gallery .om{
+    display:flex;
+    gap:2rem;
+    padding-top:2rem;
+    padding-left:4rem;
+}
+
+.img{
+    border:2px solid black;
+    border-radius:10px;
+    text-align:center;
+}
+
+.img:hover{
+    transform: translateY(-8px);
+    box-shadow:4px 8px 12px black;
+}
+
+
+.img img{
+    border-radius:15px;
+    padding:5px;
+    padding-bottom:10px;
+
+}
+
+.img button{
+    width: 100%;
+    border: none;
+    border-radius: 0.75rem;
+    background-color: orange;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.9rem 1rem;
+    margin-top: 0.75rem;
+}
+
+.img button:hover {
+    background-color: #e69500;
+    transform: translateY(-2px);
+}
+
+
+
+
+.bootom-end{
+    display:flex;
+    height:300px;
+    width:100%;
+    border:2px solid black;
+    margin-top:2rem;
+    background-color: #232323;
+    color: white;
+}
+
+
+.imgs img{
+    height:2rem;
+    width:rem;
+    margin-top:3rem;
+}
+
+.imgs{
+   margin-left:5rem;
+}
+
+
+.quick{
+    margin-top:3rem;
+    margin-left:5rem;
+}
+
+.customer{
+    margin-top:3rem;
+    margin-left:5rem;
+}
+
+.follow{
+    margin-top:3rem;
+    margin-left:5rem;
+}
+
+.follow i{
+    opacity:0.75;
+    size:10px;
+}
+
+.follow i:hover{
+    opacity:1;
+    size:20px;
+    transform: translateY(-5px);
+}
+
+.new{
+    margin-top:3rem;
+    margin-left:5rem;
+}
+
+.new button{
+    background-color: #e69500;
+}
+
